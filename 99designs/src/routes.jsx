@@ -1,7 +1,7 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-import Categories from "./pages/Categories/Categories";
-import Checkout from "./pages/Checkout/Checkout";
+import Categories from './pages/Categories/Categories';
+import Checkout from './pages/Checkout/Checkout';
 
 function App() {
   return (

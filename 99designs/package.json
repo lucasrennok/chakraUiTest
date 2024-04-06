@@ -33,6 +33,10 @@
       "prettier"
     ]
   },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
