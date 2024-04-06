@@ -17,7 +17,6 @@ const eslintConfig = {
   rules: {
     ...pluginReactConfig.rules,
     ...compat.extends('airbnb').rules,
-    'prettier/prettier': 'error',
     'linebreak-style': ['error', 'unix'],
   },
   settings: {
