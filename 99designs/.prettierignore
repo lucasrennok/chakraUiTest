@@ -1,0 +1,7 @@
+# Ignore artifacts:
+build
+coverage
+
+[Bb]uild*
+[Dd]ist*
+[Bb]in*
