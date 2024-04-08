@@ -11,9 +11,9 @@
 
 .footer-columns {
   display: flex;
-  justify-content: center; /* Centraliza as colunas horizontalmente */
-  gap: 40px; /* Adiciona espaço entre as colunas */
-  border-bottom: 1px solid #ccc; /* Adiciona uma borda superior */
+  justify-content: center;
+  gap: 40px;
+  border-bottom: 1px solid #ccc;
   margin-bottom: 10px;
   padding-bottom: 10px;
 }
@@ -21,8 +21,8 @@
 .footer-column {
   display: flex;
   flex-direction: column;
-  padding-left: 40px; /* Adicione padding uniforme em cada coluna */
-  margin: 0 10px; /* Reduza a margem entre as colunas */
+  padding-left: 40px;
+  margin: 0 10px;
 }
 
 .footer-column p,
@@ -57,7 +57,7 @@
 .footer-divider a:not(:last-child):after {
   content: '|';
   margin: 0 5px;
-  color: #ccc; /* Cor da barra */
+  color: #ccc;
 }
 
 .site-footer_socials svg {
@@ -72,7 +72,7 @@
 }
 
 a:hover {
-  text-decoration: underline; /* Adicione sublinhado ao passar o mouse */
+  text-decoration: underline;
   cursor: pointer;
 }
 
@@ -98,7 +98,7 @@ a:hover {
   }
 
   .footer-columns {
-    flex-wrap: wrap; /* Permite que as colunas se ajustem verticalmente em telas menores */
+    flex-wrap: wrap;
   }
 
   .footer-divider-main {
@@ -119,8 +119,8 @@ a:hover {
   }
 
   .footer-column {
-    flex: 0 0 100%; /* Define a largura das colunas para ocupar 100% da largura do pai */
-    margin: 0; /* Remova a margem entre as colunas */
+    flex: 0 0 100%;
+    margin: 0;
   }
 
   .site-footer_socials {
@@ -133,5 +133,15 @@ a:hover {
 
   .footer-divider p:not(:last-child):after {
     content: '|';
+  }
+
+  a,
+  p {
+    font-size: 75%;
+  }
+
+  .footer-divs svg {
+    height: 30px;
+    width: 18px;
   }
 }

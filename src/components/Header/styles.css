@@ -1,0 +1,131 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 100px;
+  margin: 0 50px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 20px;
+  height: 80px;
+  width: 120px;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.navigation {
+  display: flex;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #000;
+  margin-right: 20px;
+  transition: color 0.3s;
+}
+
+.navigation a:hover {
+  color: #333;
+  cursor: pointer;
+}
+
+.phone-number {
+  margin-right: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.login,
+.botoesHeader {
+  margin-right: 20px;
+  transition: color 0.3s;
+}
+
+.login:hover,
+.botoesHeader:hover {
+  color: #333;
+  cursor: pointer;
+}
+
+.working-hours {
+  display: none;
+  position: absolute;
+  top: 7%;
+  left: 77%;
+  transform: translateX(-50%);
+  background-color: white;
+  padding: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  font-size: 15px;
+}
+
+.phone-number:hover {
+  cursor: pointer;
+}
+
+.phone-number:hover + .working-hours {
+  display: block;
+}
+
+svg {
+  height: 40px;
+  width: 22px;
+}
+
+.navbar {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px;
+    margin: 0 20px;
+  }
+
+  .header-left {
+    margin-left: 100px;
+  }
+
+  .botoesHeader,
+  .phone-number {
+    display: none;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .header-left svg {
+    height: 50px;
+    width: 75px;
+  }
+
+  .navbar {
+    display: flex;
+    cursor: pointer;
+  }
+
+  .login {
+    font-size: 75%;
+  }
+}
