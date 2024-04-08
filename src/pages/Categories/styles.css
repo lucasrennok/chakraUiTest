@@ -1,0 +1,38 @@
+h3,
+h2 {
+  margin-left: 160px;
+  font-size: small;
+}
+
+h3 strong {
+  font-size: small;
+}
+
+h3 {
+  color: grey;
+}
+
+Button {
+  width: 250px;
+  height: 300px;
+}
+
+h2 {
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+
+main {
+  margin: 40px 0;
+}
+
+.div-com-scroll-horizontal {
+  width: 100%;
+  height: 100px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  display: flex;
+  margin-bottom: 10px;
+  padding-left: 100px;
+}
