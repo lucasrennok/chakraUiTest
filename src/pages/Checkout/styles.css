@@ -1,0 +1,55 @@
+main {
+  overflow: hidden;
+}
+
+.logoIdentidade {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  width: 55%;
+  margin-right: 80px;
+}
+
+.vencedorCheckout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  width: 60%;
+  padding: 10px;
+}
+
+.vencedorCheckout p {
+  color: grey;
+  font-family: Georgia, serif;
+  font-size: 85%;
+}
+
+.selecaoPacote {
+  border: 1px;
+  border-style: solid;
+  border-color: rgb(202, 196, 196);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.selecaoPacote .items li {
+  color: black;
+  padding: 10px 0;
+}
+
+.logoH1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.logoH2 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  margin-top: 8px;
+  margin-left: 1px;
+}
