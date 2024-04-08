@@ -166,3 +166,30 @@ main {
   color: grey;
   margin-bottom: 5px;
 }
+
+@media screen and (max-width: 900px) {
+  .discount {
+    font-size: 10px;
+  }
+
+  .price {
+    font-size: 13px;
+  }
+
+  .description {
+    font-size: 13px;
+  }
+
+  .items li {
+    font-size: 12px;
+  }
+
+  .botao_nao_encontrou a h1 {
+    font-size: 13px;
+  }
+
+  .info-container {
+    max-width: 90%;
+    margin: 25px 5%;
+  }
+}

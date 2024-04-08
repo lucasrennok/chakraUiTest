@@ -16,7 +16,7 @@ function Checkout() {
       <main>
         <Box
           boxSize="100%"
-          flexDirection={'row'}
+          className="boxmain"
           alignItems={'flex-start'}
           justifyContent={'flex-start'}
           display="flex"

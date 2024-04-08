@@ -53,3 +53,35 @@ main {
   margin-top: 8px;
   margin-left: 1px;
 }
+
+.boxmain {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 900px) {
+  .boxmain {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .selecaoPacote {
+    margin-top: 50px;
+    width: 75%;
+    margin-left: 10%;
+  }
+
+  .logoIdentidade {
+    width: 90%;
+    height: 500px;
+  }
+
+  .logoH1 {
+    font-size: 24px;
+  }
+
+  .logoH2 {
+    font-size: 15px;
+  }
+}
