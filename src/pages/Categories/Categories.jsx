@@ -1,10 +1,15 @@
-import { Box, Heading } from '@chakra-ui/react';
+import React from 'react';
+import Header from '../../components/Header/Header';
+import Footer from '../../components/Footer/Footer';
+// import { Box, Heading } from '@chakra-ui/react';
 
 function Categories() {
   return (
-    <Box>
-      <Heading>Bem-vindo à Página Inicial</Heading>
-    </Box>
+    <div>
+      <Header />
+      <main>meio</main>
+      <Footer />
+    </div>
   );
 }
 

@@ -1,0 +1,137 @@
+.footer {
+  background-color: #f3f2f0;
+  color: #313030;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: center; /* Centraliza as colunas horizontalmente */
+  gap: 40px; /* Adiciona espaço entre as colunas */
+  border-bottom: 1px solid #ccc; /* Adiciona uma borda superior */
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px; /* Adicione padding uniforme em cada coluna */
+  margin: 0 10px; /* Reduza a margem entre as colunas */
+}
+
+.footer-column p,
+.footer-column a {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.footer-divider-main,
+.site-footer_socials {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+  padding-left: 30px;
+}
+
+.footer-divider {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  padding-top: 20px;
+}
+
+.footer-divider p,
+.footer-divider a {
+  display: inline;
+  margin: 0 5px;
+}
+
+.footer-divider p:after,
+.footer-divider a:not(:last-child):after {
+  content: '|';
+  margin: 0 5px;
+  color: #ccc; /* Cor da barra */
+}
+
+.site-footer_socials svg {
+  height: 55px;
+  width: 23px;
+  padding-left: 5px;
+  padding-top: 10px;
+}
+
+.footer-divider-main {
+  gap: 40px;
+}
+
+a:hover {
+  text-decoration: underline; /* Adicione sublinhado ao passar o mouse */
+  cursor: pointer;
+}
+
+.site-footer_socials svg:hover {
+  opacity: 70%;
+  cursor: pointer;
+}
+
+.footer-divs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-divs svg {
+  margin-left: 8px;
+}
+
+@media screen and (max-width: 900px) {
+  .footer-columns {
+    display: none;
+  }
+
+  .footer-columns {
+    flex-wrap: wrap; /* Permite que as colunas se ajustem verticalmente em telas menores */
+  }
+
+  .footer-divider-main {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-divider {
+    flex-direction: column;
+  }
+
+  .footer-divs {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footer-column {
+    flex: 0 0 100%; /* Define a largura das colunas para ocupar 100% da largura do pai */
+    margin: 0; /* Remova a margem entre as colunas */
+  }
+
+  .site-footer_socials {
+    padding: 0;
+  }
+
+  .footer-divider p:after {
+    content: '';
+  }
+
+  .footer-divider p:not(:last-child):after {
+    content: '|';
+  }
+}
