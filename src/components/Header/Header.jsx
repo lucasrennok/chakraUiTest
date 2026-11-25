@@ -2,10 +2,9 @@ import './styles.css';
 
 function Header() {
   return (
-    <header class="header">
-      <div class="navbar">
+    <header className="header" id="topo">
+      <div className="navbar">
         <svg version="1.1" viewBox="0 0 24 24">
-          <style type="text/css"></style>
           <g id="grid_system" />
           <g id="_icons">
             <path d="M5,7h14c0.6,0,1-0.4,1-1s-0.4-1-1-1H5C4.4,5,4,5.4,4,6S4.4,7,5,7z" />
@@ -15,9 +14,9 @@ function Header() {
         </svg>
       </div>
 
-      <div class="header-left">
-        <svg fill="none" class="logo" viewBox="0 0 120 40">
-          <g clip-path="url(#a)">
+      <div className="header-left">
+        <svg fill="none" className="logo" viewBox="0 0 120 40">
+          <g clipPath="url(#a)">
             <path
               d="m42.299 35.388-1.472-4.427H39l2.25 6.188h1.92l2.238-6.188H43.76l-1.46 4.427Zm8.841-2.083c-.895-.13-1.188-.284-1.188-.675 0-.39.319-.64.872-.64.295 0 .513.063.668.182.156.119.25.309.298.563h1.567c-.153-1.421-1.178-1.919-2.544-1.919-1.261 0-2.438.64-2.438 1.93 0 1.207.637 1.681 2.273 1.928.883.131 1.25.31 1.25.735s-.306.68-.965.68c-.371 0-.625-.081-.794-.23-.169-.15-.254-.368-.29-.647h-1.594c.062 1.338 1.024 2.071 2.687 2.071 1.622 0 2.591-.698 2.591-2.035 0-1.337-.85-1.718-2.393-1.943Zm5.026 1.872v-3h1.292v-1.214h-1.291v-1.392h-1.693v1.39h-.786v1.217h.787v3.15c0 1.288.694 1.95 1.983 1.95.351.004.701-.052 1.034-.166v-1.32a1.588 1.588 0 0 1-.646.117c-.434 0-.68-.236-.68-.732Zm6.554-3.297c-.27-.49-.944-1.06-2.053-1.06-1.712 0-3.041 1.294-3.041 3.224 0 1.727 1.088 3.235 3.041 3.235.854 0 1.664-.337 2.052-1.051v.923h1.563v-6.187h-1.563v.915Zm.035 2.277a1.849 1.849 0 0 1-.294.878c-.27.422-.73.768-1.483.768-1.279 0-1.765-1.087-1.765-1.72v-.013c0-.779.54-1.77 1.75-1.77.896 0 1.381.483 1.611.953.142.28.205.592.181.904Zm-15.062-3.195h-1.687v6.188h1.687v-6.188Zm-.947-2.5a.952.952 0 1 0 .413 1.844.953.953 0 0 0-.413-1.844Z"
               fill="#313030"
@@ -49,24 +48,24 @@ function Header() {
             </clipPath>
           </defs>
         </svg>
-        <nav class="navigation">
-          <div class="botoesHeader">Categorias</div>
-          <div class="botoesHeader">Como funciona</div>
-          <div class="botoesHeader">Encontre um designer</div>
-          <div class="botoesHeader">Inspiração</div>
-          <div class="botoesHeader">Pro</div>
+        <nav className="navigation">
+          <div className="botoesHeader">Categorias</div>
+          <div className="botoesHeader">Como funciona</div>
+          <div className="botoesHeader">Encontre um designer</div>
+          <div className="botoesHeader">Inspiração</div>
+          <div className="botoesHeader">Pro</div>
         </nav>
       </div>
-      <div class="header-right">
-        <div class="phone-number">
+      <div className="header-right">
+        <div className="phone-number">
           <svg viewBox="0 0 48 48">
             <path d="M0 0h48v48h-48z" fill="none" />
             <path d="M13.25 21.59c2.88 5.66 7.51 10.29 13.18 13.17l4.4-4.41c.55-.55 1.34-.71 2.03-.49 2.24.74 4.65 1.14 7.14 1.14 1.11 0 2 .89 2 2v7c0 1.11-.89 2-2 2-18.78 0-34-15.22-34-34 0-1.11.9-2 2-2h7c1.11 0 2 .89 2 2 0 2.49.4 4.9 1.14 7.14.22.69.06 1.48-.49 2.03l-4.4 4.42z" />
           </svg>{' '}
           +1 877 834 4534
         </div>
-        <div class="working-hours">Seg-Sex: 9h-18h</div>
-        <div class="login">Fazer login</div>
+        <div className="working-hours">Seg-Sex: 9h-18h</div>
+        <div className="login">Fazer login</div>
       </div>
     </header>
   );

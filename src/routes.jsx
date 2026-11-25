@@ -1,16 +1,23 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import Categories from './pages/Categories/Categories';
 import Checkout from './pages/Checkout/Checkout';
 
+export function AppRoutes() {
+  return (
+    <Routes>
+      <Route path="/" element={<Categories />} />
+      <Route path="/checkout" element={<Checkout />} />
+      <Route path="*" element={<Categories />} />
+    </Routes>
+  );
+}
+
 function RoutesPage() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Categories />} />
-        <Route path="/checkout" element={<Checkout />} />
-      </Routes>
-    </Router>
+    <BrowserRouter>
+      <AppRoutes />
+    </BrowserRouter>
   );
 }
 

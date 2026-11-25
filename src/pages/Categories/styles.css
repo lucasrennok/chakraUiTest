@@ -49,7 +49,7 @@ main {
   color: #01a1c1;
 }
 
-.botao_nao_encontrou a h1 {
+.botao_nao_encontrou .nao-encontrou-texto {
   font-size: 20px;
   font-weight: 500;
   display: flex;
@@ -184,7 +184,7 @@ main {
     font-size: 12px;
   }
 
-  .botao_nao_encontrou a h1 {
+  .botao_nao_encontrou .nao-encontrou-texto {
     font-size: 13px;
   }
 

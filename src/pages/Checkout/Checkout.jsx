@@ -1,13 +1,21 @@
-// import { Box, Heading } from '@chakra-ui/react';
-import React from 'react';
+import { Box, Button, Icon, Image } from '@chakra-ui/react';
+import { FaArrowDown, FaCheck } from 'react-icons/fa';
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
-import { Image, Box, Button } from '@chakra-ui/react';
-import './styles.css';
-import { FaArrowDown, FaCheck } from 'react-icons/fa';
-import { Icon } from '@chakra-ui/react';
-
 import checkoutImage from '../../assets/images/checkoutImage.png';
+import './styles.css';
+
+const packageItems = [
+  '1 design de logotipo finalizado e totalmente personalizado',
+  '1 design de cartão de visita',
+  '1 papel timbrado',
+  '1 envelope',
+  '1 capa para Facebook',
+  'Propriedade total dos direitos autorais',
+  'Arquivos digitais para web e impressão (RGB, CMYK, PNG, JPG, PDF)',
+  'O arquivo original, editável (ex. AI)',
+  '100% garantia de satisfação ou o seu dinheiro de volta',
+];
 
 function Checkout() {
   return (
@@ -17,59 +25,35 @@ function Checkout() {
         <Box
           boxSize="100%"
           className="boxmain"
-          alignItems={'flex-start'}
-          justifyContent={'flex-start'}
+          alignItems="flex-start"
+          justifyContent="flex-start"
           display="flex"
         >
           <div className="logoIdentidade">
-            <Image src={checkoutImage} alt="checkoutImg" height="500px" />
+            <Image
+              src={checkoutImage}
+              alt="Exemplo de identidade visual vencedora de um concurso"
+              height="500px"
+            />
             <div className="vencedorCheckout">
               <p>Concurso de design criado por The Hype Lab</p>
-              <p> Design vencedor por leonelbalza</p>
+              <p>Design vencedor por leonelbalza</p>
             </div>
           </div>
 
           <div className="selecaoPacote">
-            <h1 className="logoH1">Logo & Identidade Visual</h1>
+            <h1 className="logoH1">Logo &amp; Identidade Visual</h1>
             <h2 className="logoH2">A partir de US$ 599</h2>
 
-            <ul class="items">
-              <li>
-                <Icon as={FaCheck} height="15px" marginRight="5px" />1 design de
-                logotipo finalizado e totalmente personalizado
-              </li>
-              <li>
-                <Icon as={FaCheck} height="15px" marginRight="5px" />1 design de
-                cartão de visita
-              </li>
-              <li>
-                <Icon as={FaCheck} height="15px" marginRight="5px" />1 papel
-                timbrado
-              </li>
-              <li>
-                <Icon as={FaCheck} height="15px" marginRight="5px" />1 envelope
-              </li>
-              <li>
-                <Icon as={FaCheck} height="15px" marginRight="5px" />1 capa para
-                Facebook
-              </li>
-              <li>
-                <Icon as={FaCheck} height="15px" marginRight="5px" />
-                Propriedade total dos direitos autorais
-              </li>
-              <li>
-                <Icon as={FaCheck} height="15px" marginRight="5px" />
-                Arquivos digitais para web e impressão (RGB, CMYK, PNG, JPG,
-                PDF)
-              </li>
-              <li>
-                <Icon as={FaCheck} height="15px" marginRight="5px" />O arquivo
-                original, editável (ex. AI)
-              </li>
-              <li>
-                <Icon as={FaCheck} height="15px" marginRight="5px" />
-                100% garantia de satisfação ou o seu dinheiro de volta
-              </li>
+            <ul className="items">
+              {packageItems.map((item) => (
+                <li key={item}>
+                  <Icon boxSize="13px" marginRight="5px">
+                    <FaCheck />
+                  </Icon>
+                  {item}
+                </li>
+              ))}
             </ul>
             <Button
               backgroundColor="black"
@@ -80,7 +64,9 @@ function Checkout() {
               fontSize="15px"
             >
               Selecione um pacote
-              <Icon as={FaArrowDown} height="15px" marginLeft="5px" />
+              <Icon boxSize="13px" marginLeft="5px">
+                <FaArrowDown />
+              </Icon>
             </Button>
           </div>
         </Box>

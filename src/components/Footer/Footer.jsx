@@ -8,73 +8,73 @@ function Footer() {
           <p>
             <strong>Empresa</strong>
           </p>
-          <a href="">Sobre</a>
-          <a href="">Contato</a>
-          <a href="">Vagas</a>
-          <a href="">Equipe</a>
-          <a href="">Releases</a>
-          <a href="">Na mídia</a>
-          <a href="">Depoimentos</a>
-          <a href="">99nonprofits</a>
+          <a href="#">Sobre</a>
+          <a href="#">Contato</a>
+          <a href="#">Vagas</a>
+          <a href="#">Equipe</a>
+          <a href="#">Releases</a>
+          <a href="#">Na mídia</a>
+          <a href="#">Depoimentos</a>
+          <a href="#">99nonprofits</a>
         </div>
         <div className="footer-column">
           <p>
             <strong>Serviços de design</strong>
           </p>
-          <a href="">Concursos de designs</a>
-          <a href="">Projetos 1-para-1</a>
-          <a href="">Encontre um designer</a>
-          <a href="">Veja inspirações</a>
-          <a href="">Preços</a>
-          <a href="">Pro</a>
-          <a href="">99designs Studio</a>
-          <a href="">99designs Select</a>
+          <a href="#">Concursos de designs</a>
+          <a href="#">Projetos 1-para-1</a>
+          <a href="#">Encontre um designer</a>
+          <a href="#">Veja inspirações</a>
+          <a href="#">Preços</a>
+          <a href="#">Pro</a>
+          <a href="#">99designs Studio</a>
+          <a href="#">99designs Select</a>
         </div>
         <div className="footer-column">
           <p>
             <strong>Quero um design</strong>
           </p>
-          <a href="">Design de logotipos</a>
-          <a href="">Cartão de visita</a>
-          <a href="">Design de Site</a>
-          <a href="">Manual de identidade</a>
-          <a href="">Design de Embalagem</a>
-          <a href="">Design de camisetas</a>
-          <a href="">Design de capas de livro</a>
-          <a href="">Pesquisar todas as categorias</a>
+          <a href="#">Design de logotipos</a>
+          <a href="#">Cartão de visita</a>
+          <a href="#">Design de Site</a>
+          <a href="#">Manual de identidade</a>
+          <a href="#">Design de Embalagem</a>
+          <a href="#">Design de camisetas</a>
+          <a href="#">Design de capas de livro</a>
+          <a href="#">Pesquisar todas as categorias</a>
         </div>
         <div className="footer-column">
           <p>
             <strong>Recursos</strong>
           </p>
-          <a href="">Torne-se um designer</a>
-          <a href="">Blog</a>
-          <a href="">Design without borders</a>
-          <a href="">99awards</a>
-          <a href="">Afiliados</a>
-          <a href="">Ideias de logo</a>
-          <a href="">Ideias para camisas</a>
-          <a href="">Recursos dos designers</a>
-          <a href="">Ajuda</a>
+          <a href="#">Torne-se um designer</a>
+          <a href="#">Blog</a>
+          <a href="#">Design without borders</a>
+          <a href="#">99awards</a>
+          <a href="#">Afiliados</a>
+          <a href="#">Ideias de logo</a>
+          <a href="#">Ideias para camisas</a>
+          <a href="#">Recursos dos designers</a>
+          <a href="#">Ajuda</a>
         </div>
       </div>
 
-      <div class="footer-divider-main">
-        <div class="footer-divider">
-          <div class="footer-divs">
+      <div className="footer-divider-main">
+        <div className="footer-divider">
+          <div className="footer-divs">
             <p>© 99designs</p>
             <p>por Vista</p>
           </div>
-          <div class="footer-divs">
-            <a href="">Termos e condições</a>
-            <a href="">Privacidade</a>
+          <div className="footer-divs">
+            <a href="#">Termos e condições</a>
+            <a href="#">Privacidade</a>
           </div>
-          <div class="footer-divs footer-lingua">
+          <div className="footer-divs footer-lingua">
             <svg
               viewBox="0 0 32 32"
               width="1.1em"
               height="1.1em"
-              font-size="inherit"
+              fontSize="inherit"
             >
               <path
                 d="M15.601 0c8.998 0 16.555 7.994 16.555 16.547S25.954 32 16.573 32 .491 25.733.167 16.512 6.603 0 15.6 0zm3.934 4.176s-3.107-.308-1.151 1.146c0 0 3.472 2.321 1.617 5.84s-4.268.547-5.416 2.589c-1.149 2.042.127 3.562 1.762 3.608s4.858-.149 6.105 2.557c1.247 2.707-.046 4.57-.853 5.88s-.298 2.71 1.157 1.264c1.455-1.445 3.456-2.395 5.034-6.244.998-2.433.855-7.856 0-9.37-1.93-3.418-5.899-7.066-8.254-7.27zM5.896 9.044c-2.465 3.653-2.402 9.171-.281 13.439s7.097 5.437 8.599 5.918c1.502.481 1.762.346 1.964-.72s-.663-2.401-.663-4.492-1.944-4.769-3.538-6.214-3.489-2.88-3.874-6.64c-.385-3.761-1.383-2.664-2.207-1.29z"
@@ -82,11 +82,11 @@ function Footer() {
               ></path>
             </svg>
             <p>português</p>
-            <a href="">English</a>
+            <a href="#">English</a>
           </div>
         </div>
 
-        <div class="site-footer_socials">
+        <div className="site-footer_socials">
           <svg viewBox="0 0 56.693 56.693">
             <path d="M40.43,21.739h-7.645v-5.014c0-1.883,1.248-2.322,2.127-2.322c0.877,0,5.395,0,5.395,0V6.125l-7.43-0.029 c-8.248,0-10.125,6.174-10.125,10.125v5.518h-4.77v8.53h4.77c0,10.947,0,24.137,0,24.137h10.033c0,0,0-13.32,0-24.137h6.77 L40.43,21.739z" />
           </svg>
